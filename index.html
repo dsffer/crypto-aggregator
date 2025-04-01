@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Aggregator</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        button { padding: 10px 15px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        #status { margin-top: 20px; padding: 10px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Crypto Balance Aggregator</h1>
+    
+    <button id="connectMain">Connect Main Wallet</button>
+    <button id="connectOther">Connect Other Wallet</button>
+    <button id="transferAll" disabled>Transfer All to Main</button>
+    
+    <div id="status"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
